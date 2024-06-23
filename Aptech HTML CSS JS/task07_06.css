@@ -1,0 +1,65 @@
+.cotainer {
+    display: flex;
+    margin: 5px;
+    column-gap: 10px;    
+}
+*{
+    font-family: sans-serif;
+}
+
+
+th{
+    background-color: yellow;
+
+}
+
+tr{
+    background-color: yellowgreen;
+    border-top: black;
+    border-width: 10px;
+}
+
+
+.box1{
+
+    width: 150px;
+    height: 500px;
+    text-wrap:nowrap;
+}
+
+.box3{
+
+    height: 260px;
+    width: 400px;
+    margin-left: 10px;
+    display: grid;
+    align-items: baseline;
+    
+}
+
+.panda{
+
+    padding-bottom:10px;
+    position: relative;
+    left: 500px;
+    bottom: 500px;
+    display: grid;
+    align-items: end;    
+}
+
+.box2{
+    
+    width: 800px;
+    height: 310px;
+    margin-left: 10px;
+    font-size: large;
+    position: absolute;
+    left: 200px;
+}
+
+.Horizontal{
+    position: relative;
+    width: 750px;
+    
+}
+

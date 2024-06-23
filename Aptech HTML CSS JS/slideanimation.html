@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .subcontainer {
+            display: flex;
+            width: 800px;
+            column-gap: 100px;
+            height: 100px;
+
+        }
+
+        .subcontainer2 {
+            display: flex;
+            width: 800px;
+            height: 100px;
+            column-gap: 100px;
+        }
+
+        #right {
+            background-color: aqua;
+            width: 100px;
+            animation-duration: 10s;
+            animation-iteration-count: 1;
+            position: inherit;
+        }
+
+        #down {
+            background-color: purple;
+            width: 100px;
+        }
+
+        #left {
+            background-color: blueviolet;
+            width: 100px;
+
+        }
+
+        #up {
+            background-color: cadetblue;
+            width: 100px;
+        }
+
+        #right:hover {
+            animation-direction: normal;
+            animation-name: leftside;
+            transition: ease;
+           
+            transition-duration: 5s;
+            animation-range:initial;
+        }
+
+        @keyframes leftside {
+            from{
+                transform: translateX(200px);
+            }
+            to {
+                opacity: 0%;
+                position: absolute;
+            }
+        }
+
+        #down:hover{
+            animation: name duration timing-function delay iteration-count direction fill-mode;
+
+        }
+    </style>
+
+    <div class="container">
+        <div class="subcontainer">
+            <div id="right">left</div>
+            <div id="down">down</div>
+        </div>
+        <div class="subcontainer2">
+            <div id="left">right</div>
+            <div id="up">up</div>
+        </div>
+    </div>
+</body>
+
+</html>

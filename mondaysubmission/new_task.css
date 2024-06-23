@@ -1,0 +1,67 @@
+.maincontainer{
+    border: 2px solid black;
+    height: 700px;
+
+    width: 1100px;
+    background-color: tan;
+}
+.subcontainer{
+    display:flex;
+    border:2px solid black;
+    margin-left: 20px;
+    width:1000px ;
+    height: 320px;
+    column-gap: 10px;
+
+    
+}
+
+#box1{
+
+    height: 350px;
+    width: 400px;
+    margin-left: 20px;
+
+    
+}
+
+#box2{
+
+    height: 350px;
+    width:650px;
+    margin-left:20px ;
+    font-size: 25px;
+}
+
+
+#box3{
+    
+    width: 1050px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+ul.custom-list {
+    list-style: none; /* Remove default list styling */
+    padding-left: 0; /* Remove default padding */
+    
+  }
+
+ul{
+    margin-left: 40px;
+}
+*{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  ul.custom-list li::before {
+    content: '✓'; /* Tick mark */
+    padding-right: 8px; /* Space between the tick mark and the list item */
+    
+}
+
+#content{
+    margin-left: 100px;
+    left: 50%;
+    top: 50%;
+}

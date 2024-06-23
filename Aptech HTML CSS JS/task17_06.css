@@ -1,0 +1,23 @@
+table{
+
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    border: 5px;
+    border-color: aqua;
+    border-style: outset;
+}
+th{
+    border: 2px;
+    background-color: #E1341E;
+    border-color: aqua;
+    border-style: outset;
+}
+td{
+    background-color: #E1341E;
+    border: 2px;
+    border-color: aqua;
+    border-style: outset;
+}

@@ -1,0 +1,28 @@
+h1{
+    padding-left: 500px;
+    padding-top: 200px;
+    background-color: brown;
+    color: tan;
+}
+
+body{
+    background-color: tan;
+}
+
+.Home{
+    background-color:tan;
+    margin-left:190px;
+
+}
+
+.brown{
+    color: cadetblue;
+}
+
+#last{
+    padding-left: 500px;
+}
+
+*{
+    font-family:sans-serif;
+}

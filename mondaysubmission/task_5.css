@@ -1,0 +1,61 @@
+.container{
+    display: flex;
+    text-align: center;
+    left: 100px;
+    
+    margin-left: 300px;
+    width: 1400px;
+    height: 400px;
+
+    column-gap: 20px;
+
+}
+#box1{
+
+    width: 400px;
+    height: 400px;
+
+
+}
+#box2{
+
+    width:1000px;
+    text-wrap: wrap;
+    font-size: x-large;
+    text-align: left;
+
+
+}
+#Minihead{
+    margin-left: 300px;
+    font-size: 30px;
+}
+#husky{
+    width: 400px;
+    height: 400px;
+}
+
+#para2{
+    margin-top: 40px;
+    margin-left: 300px;
+    width: 1400px;
+
+    height: 200px;
+    font-size: 22px;
+
+}
+
+hr{
+    width: 1500px;
+}
+#heading1{
+    margin-left: 300px ;
+}
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#last{
+    margin-left: 300px;
+
+}

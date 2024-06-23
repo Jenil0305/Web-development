@@ -1,0 +1,24 @@
+
+h1{
+    color: red;
+    text-align: center;
+}
+#head{
+    color: red;
+}
+
+.body{
+    font-size: xx-large;    
+    font-size: larger;
+    height: 100px;
+    width:800px;
+    padding-left: 150px;
+}
+
+.green{
+    color: green;
+    padding-right:1000px;
+}
+green:visited{
+    color:green
+}
